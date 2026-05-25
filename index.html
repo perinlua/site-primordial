@@ -1437,5 +1437,17 @@
   });
 </script>
 
+<script>
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function(el) {
+    el.addEventListener('click', function() {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18036787821',
+        'event_category': 'contato',
+        'event_label': 'whatsapp'
+      });
+    });
+  });
+</script>
+
 </body>
 </html>
