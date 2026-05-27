@@ -1,16 +1,4 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
-
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com https://googleads.g.doubleclick.net; script-src-elem 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google.com https://googleads.g.doubleclick.net; connect-src 'self' https://www.google.com https://www.google.com/pagead/ https://www.googleadservices.com https://www.googletagmanager.com https://region1.google-analytics.com https://googleads.g.doubleclick.net; img-src 'self' data: blob: https://www.google.com https://www.google.com.br https://www.googleadservices.com https://www.googletagmanager.com https://googleads.g.doubleclick.net https://www.google-analytics.com https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://www.googletagmanager.com; style-src-elem 'self' 'unsafe-inline' https://fonts.googleapis.com https://www.googletagmanager.com; font-src 'self' https://fonts.gstatic.com data:; frame-src https://www.google.com https://googleads.g.doubleclick.net;"
-        }
-      ]
-    }
-  ]
+  "trailingSlash": false
 }
